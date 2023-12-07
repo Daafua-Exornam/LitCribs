@@ -1,0 +1,82 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black; /* Set the background color to black. */
+  overflow: hidden; /* Ensure that any content exceeding the container's dimensions is hidden. */
+  padding: 10px 0; /* Add padding to the top and bottom to reduce height and improve visibility. */
+  position: fixed; /* Make the top navigation bar fixed for better visibility. */
+  width: 100%; /* Make the navigation bar full-width. */
+  top: 0; /* Position it at the top of the page. */
+  z-index: 999; /* Set a high z-index to ensure it's on top of other elements. */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffd700; /* Set the text color to gold. */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif; /* Use a more readable font with a fallback to sans-serif. */
+  font-size: 18px; /* Slightly larger font size for better visibility. */
+  transition: background-color 0.5s, color 0.5s; /* Add smooth transitions. */
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffd700; /* Change the background color to gold on hover. */
+  color: black; /* Change the text color to black on hover. */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #5f6361; /* Set the background color for the active link. */
+  color: white; /* Set the text color to white for the active link. */
+  border-bottom: 3px solid #ffd700; /* Add a gold-colored border to the active link. */
+}
+
+/* Style for the search bar */
+.d-flex {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  background-color: #ffd700; /* Set a gold background color for the search bar. */
+  color: black; /* Set the text color to black for better visibility. */
+  border-radius: 5px; /* Add rounded corners to the search bar. */
+  transition: background-color 0.5s, color 0.5s; /* Add smooth transitions. */
+}
+
+/* Style for buttons */
+.click button {
+  background-color: black; /* Set the background color of buttons to black. */
+  border: none;
+  color: #ffd700; /* Set the text color to gold. */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; /* Slightly smaller font size for buttons. */
+  transition: background-color 0.5s, color 0.5s;
+}
+
+/* Style for centered menu links */
+.click a {
+  display: block;
+  color: #ffd700; /* Set the text color to gold. */
+  padding: 18px 16px;
+  width: 100%;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+}
+
+/* Style for page header text */
+h2 {
+  color: #ffd700; /* Set the text color to gold. */
+  font-size: 40px; /* Slightly smaller font size for headers. */
+  text-align: center;
+  margin: 20px 0;
+}

@@ -1,0 +1,102 @@
+/* Apply box-sizing to all elements for consistent sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Set a stylish background style */
+body {
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(135deg, #e6f7ff, #b3e0ff); /* lighter blue gradient background */
+    background-size: 200% 200%;
+    animation: shimmer 2s linear infinite;
+    color: #4d4d4d; /* dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #ffffff; /* White background for the navbar */
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #1a1a1a; /* Dark color for the brand/logo */
+}
+
+.navbar-nav .nav-link {
+    color: #1a1a1a; /* Dark color for navigation links */
+}
+
+/* Main Content Container Styles */
+.container {
+    margin-top: 20px; /* Space between the navbar and content */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a; /* Dark color for the main heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    justify-content: center; /* Center the cards within the row */
+}
+
+.card {
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card img {
+    height: 20rem; /* Set a fixed height for product images */
+    object-fit: cover; /* Maintain image aspect ratio */
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #1a1a1a; /* Dark color for product titles */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #4d4d4d; /* Dark gray color for product prices */
+}
+
+/* Quantity Input Styles */
+#qty {
+    width: 70%; /* Adjust the width of the quantity input */
+    margin-right: 5px;
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-link {
+    color: #1a1a1a; /* Dark color for pagination links */
+    border: 1px solid #1a1a1a; /* Dark border for pagination links */
+    margin: 0 5px;
+}
+
+/* Hover Styles for Pagination Links */
+.page-link:hover {
+    background-color: #1a1a1a; /* Dark background on hover */
+    color: #e6f7ff; /* Light text color on hover */
+}
+
+/* Animation effect for shimmering background */
+@keyframes shimmer {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

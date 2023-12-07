@@ -1,0 +1,93 @@
+/* Reset default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Background styles */
+body {
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark text color for better readability */
+}
+
+/* Page Title styles */
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Container for cart items */
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Individual cart item styles */
+.cart-item {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.cart-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cart-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cart-item p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #888;
+}
+
+.cart-item input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.cart-item button {
+  background-color: #ffd700;
+  color: #333;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+/* Cart options styles */
+.cart-options {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cart-options button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Optional hover effect for buttons */
+button:hover {
+  background-color: #555;
+}

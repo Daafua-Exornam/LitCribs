@@ -1,0 +1,73 @@
+/* Resetting some default styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif; /* Use a specified font with a fallback to sans-serif */
+    background: url('') no-repeat center center fixed; 
+    background-size: cover;
+    background-color: black; /* Set a black background color in case the background image is missing */
+    color: gold; /* Set the text color to gold */
+}
+
+/* Styling for the login box */
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: gold;
+    background: rgba(0, 0, 0, 0.8); /* Add a semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styling for the login box heading */
+.login-box h1 {
+    font-size: 40px;
+    border-bottom: 4px solid gold;
+    margin-bottom: 20px; /* Reduce the space between the heading and input fields */
+    padding: 5px 0; /* Adjust padding around the heading text */
+    text-align: center; /* Center-align the heading text */
+}
+
+/* Styling for text input boxes */
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-bottom: 2px solid gold; /* Thicker gold underline */
+}
+
+/* Styling for the font-awesome icon (adjust the width accordingly) */
+.fa {
+    width: 24px; /* Set the width of the icon */
+    text-align: center;
+    color: gold; /* Set the icon color to gold */
+}
+
+/* Styling for text input elements */
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    margin: 0 10px;
+    color: gold; /* Set the text color of input elements to gold */
+}
+
+/* Styling for the login button */
+.button {
+    width: 100%;
+    padding: 10px;
+    color: #191970; /* Text color */
+    background: gold; /* Background color for the button */
+    border: none;
+    border-radius: 6px;
+    font-size: 20px; /* Slightly increase the font size */
+    cursor: pointer;
+    margin: 20px 0; /* Increase the margin above and below the button */
+}

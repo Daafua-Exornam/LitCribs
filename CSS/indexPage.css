@@ -1,0 +1,93 @@
+/* Reset default margin and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a stylish black and gold background */
+body {
+  background: black; /* Black background */
+  color: #333; /* Dark text color for better readability */
+  font-family: Arial, sans-serif; /* Use a common, accessible font */
+
+  /* background: url(' ') repeat; */
+}
+
+/* Navigation Bar Styles */
+.topnav {
+  background-color: black; /* Black background */
+  overflow: hidden;
+  text-align: center; /* Center-align the navigation links */
+  padding: 12px 0; /* Added padding to increase the bar's height */
+}
+
+.topnav a {
+  color: #ffd700; /* Gold text color */
+  padding: 12px 20px; /* Adjust padding for links */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #ffd700; /* Gold background on hover */
+  color: black; /* Black text color on hover */
+}
+
+.topnav a.active {
+  background-color: #ffd700; /* Gold background for active links */
+  color: black; /* Black text color for active links */
+}
+
+/* Search Bar Style */
+.d-flex {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 16px;
+  background-color: black; /* Black background for the search bar */
+}
+
+/* Button Style */
+.click button {
+  background-color: #ffd700; /* Gold background for buttons */
+  border: none;
+  color: black; /* Black text color for buttons */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px; /* Slightly larger font size for buttons */
+  cursor: pointer; /* Add pointer cursor to buttons for interactivity */
+}
+
+/* Centered Menu Link Style */
+.click a {
+  display: block;
+  color: black; /* Black text color */
+  padding: 18px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Page Header Text Style */
+h2 {
+  color: #ffd700; /* Gold header text color */
+  font-size: 40px; /* Large font size for headers */
+  text-align: center; /* Center-align the header text */
+  margin: 20px 0; /* Add some margin for better spacing */
+}
+
+.click button, .click a {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.click button:hover, .click a:hover {
+  transform: scale(1.05); /* Slightly increase size on hover for interactivity */
+  transition: transform 0.2s ease-in-out;
+}

@@ -1,0 +1,96 @@
+
+  /* Apply box-sizing to all elements for consistent sizing */
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Set a stylish background style */
+  body {
+    font-family: "Lato", sans-serif;
+    background: linear-gradient(135deg, #e6f7ff, #b3e0ff); /* lighter blue gradient background */
+    background-size: 200% 200%;
+    animation: shimmer 2s linear infinite;
+    color: #4d4d4d; /* dark gray text color */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style for the page title */
+  h2 {
+    font-size: 28px; /* slightly increased font size */
+    text-align: center;
+    margin: 20px 0;
+    color: #1a1a1a; /* dark color for the title */
+  }
+
+  /* Style for the navigation bar */
+  .navbar {
+    background-color: #ffd700; /* Set the background color to gold. */
+  }
+
+  /* Style for the navigation links */
+  .navbar a {
+    color: black; /* Set the text color to black. */
+    text-decoration: none;
+    padding: 10px 16px;
+    font-size: 18px; /* Slightly larger font size for better visibility. */
+  }
+
+  /* Style for the form inputs and buttons */
+  .form-control {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #4d4d4d; /* Dark gray border. */
+  }
+
+  /* Style for the table */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  /* Style for table headers */
+  .table th {
+    background-color: #1a1a1a; /* Dark background color for headers. */
+    color: #e6f7ff; /* Light text color for headers. */
+    padding: 12px;
+    text-align: center;
+  }
+
+  /* Style for table cells */
+  .table td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Style for buttons */
+  button {
+    background-color: black; /* Set the background color of buttons to black. */
+    border: none;
+    color: #ffd700; /* Set the text color to gold. */
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px; /* Slightly smaller font size for buttons. */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+  /* Change button color on hover */
+  button:hover {
+    background-color: #ffd700; /* Change the background color to gold on hover. */
+    color: black; /* Change the text color to black on hover. */
+  }
+
+  /* Animation effect for shimmering background */
+  @keyframes shimmer {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
